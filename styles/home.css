@@ -1,3 +1,17 @@
 body {
   /* display: flex; */
+  background-color: #f2f2f2;
+}
+#welcome-section {
+  min-height: 300px;
+  color: black;
+}
+
+nav ul a {
+  color: black;
+}
+
+.page-footer .footer-copyright {
+  color: black;
+  background-color: white;
 }

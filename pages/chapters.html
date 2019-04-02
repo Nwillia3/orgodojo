@@ -14,18 +14,27 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <title>Table of content</title>
+    <title>Table of Content : Orgo Dojo</title>
   </head>
   <body>
     <nav>
       <div class="nav-wrapper">
-        <a href="../index.html" class="brand-logo">Orgo Dojo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <a href="../index.html" class="brand-logo"
+          ><i class="fas fa-school" style="margin: auto 5px"></i>Orgo Dojo</a
+        >
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="fas fa-bars"></i
+        ></a>
+        <ul class="right hide-on-med-and-down">
           <li><a href="../pages/about.html">About</a></li>
-          <li><a href="#">Chapter</a></li>
+          <li><a href="../pages/chapters.html">Chapter</a></li>
         </ul>
       </div>
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="../pages/about.html">About</a></li>
+      <li><a href="../pages/chapters.html">Chapter</a></li>
+    </ul>
     <div class="container">
       <h1 class="center">Table of Context</h1>
       <table>
@@ -62,7 +71,7 @@
           </tr>
           <tr>
             <td><a href="../chapters/chapter6.html">Chapter 6</a></td>
-            <td>Test</td>
+            <td>Coming Soon</td>
           </tr>
           <tr>
             <td>7</td>
@@ -87,5 +96,7 @@
         </tbody>
       </table>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../index.js"></script>
   </body>
 </html>
